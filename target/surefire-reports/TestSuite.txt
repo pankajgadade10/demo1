@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 2.003 s <<< FAILURE! - in TestSuite
+setupTest(Tests.FirefoxTestNGDemo)  Time elapsed: 1.669 s  <<< FAILURE!
+io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: raw.githubusercontent.com
+	at Tests.FirefoxTestNGDemo.setupTest(FirefoxTestNGDemo.java:19)
+Caused by: java.net.UnknownHostException: raw.githubusercontent.com
+	at Tests.FirefoxTestNGDemo.setupTest(FirefoxTestNGDemo.java:19)
+
